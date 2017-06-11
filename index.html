@@ -101,6 +101,7 @@ p {
   left: 50px;
   width: 60px;
   height: 60px;
+  filter: invert(100%);
   transform: translate(-50%,50%);
 }
 #logo.about{
@@ -263,9 +264,9 @@ p {
 #bookme a,
 .button {
   padding: 12px 32px;
-  color: #eee;
-  /*border: 1px solid;*/
-  background-color: #d1a827;
+  color: #d1a827;
+  border: 2px solid;
+  background-color: #eee;
   font-style: none;
   font-size: 14px;
   font-weight: 200;
@@ -275,7 +276,8 @@ p {
 }
 #bookme a:hover,
 .button:hover {
-  background-color:rgba(209,168,39,1);
+  color: #eee;
+  background-color:rgba(209,168,39,1); /*#d1a827*/
   font-style: italic;
 }
 @media only screen and (max-width: 670px) {
