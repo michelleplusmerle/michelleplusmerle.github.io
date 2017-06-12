@@ -238,6 +238,8 @@ p {
 #portfolios.active {
   top: 0;
   font-size: 18px;
+}
+#portfolios.gradient {
   /*background-color: rgba(23,23,23,0.4);*/
   background: rgba(23,23,23,0); /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(rgba(23,23,23,1), rgba(23,23,23,0.9), rgba(23,23,23,0.7), rgba(23,23,23,0)); /* For Safari 5.1 to 6.0 */
@@ -447,6 +449,9 @@ I have multiple ways for you to contact me if you are interested in booking or h
             openLeftPortfolioDelayed();
         } else {
             stu.toggleClass(portfolios,'active');
+            setTimeout(function(){
+              stu.toggleClass(portfolios,'gradient');
+            }, 500);
             stu.toggleClass(logo,'active');
             stu.toggleClass(bookme,'hide');
             openLeftPortfolioImmediately(); 
@@ -524,6 +529,9 @@ I have multiple ways for you to contact me if you are interested in booking or h
             openRightPortfolioDelayed();
         } else {
             stu.toggleClass(portfolios,'active');
+            setTimeout(function(){
+              stu.toggleClass(portfolios,'gradient');
+            }, 500);
             stu.toggleClass(logo,'active');
             stu.toggleClass(bookme,'hide');
             openRightPortfolioImmediately(); 
