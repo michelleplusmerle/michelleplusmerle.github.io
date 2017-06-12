@@ -445,9 +445,10 @@ I have multiple ways for you to contact me if you are interested in booking or h
         if(rp.className.indexOf('active') != -1) {
             openRightPortfolioImmediately();
             openLeftPortfolioDelayed();
-//            switchLeftPortfolio();
         } else {
             stu.toggleClass(portfolios,'active');
+            stu.toggleClass(logo,'active');
+            stu.toggleClass(bookme,'hide');
             openLeftPortfolioImmediately(); 
         }
     }
@@ -462,44 +463,24 @@ I have multiple ways for you to contact me if you are interested in booking or h
               stu.toggleClass(lp,'active');
             }, 50);
             stu.toggleClass(leftLabel,'hide');
-            stu.toggleClass(logo,'active');
+//            stu.toggleClass(logo,'active');
             stu.toggleClass(leftTitle,'active');
 //            stu.toggleClass(stillNav,'hide');
 //            stu.toggleClass(portfolios,'active');
-            stu.toggleClass(bookme,'hide');
+//            stu.toggleClass(bookme,'hide');
         }  else {
             stu.toggleClass(rp,'hidden');
             stu.toggleClass(lp,'active');
-            stu.toggleClass(logo,'active');
+//            stu.toggleClass(logo,'active');
             stu.toggleClass(leftTitle,'active');
 //            stu.toggleClass(stillNav,'hide');
 //            stu.toggleClass(portfolios,'active');
             setTimeout(function(){
               stu.toggleClass(leftLabel,'hide');
               stu.toggleClass(lp,'hide');
-              stu.toggleClass(bookme,'hide');
+//              stu.toggleClass(bookme,'hide');
             }, 500);
         }
-    }
-    
-    function switchLeftPortfolio() { 
-
-            stu.toggleClass(rp,'hidden');
-            stu.toggleClass(lp,'hide');
-//            stu.toggleClass(lp,'active');
-            stu.toggleClass(lp,'active');
-//            setTimeout(function(){
-//              stu.toggleClass(lp,'active');
-//            }, 50);
-            stu.toggleClass(leftLabel,'hide');
-            stu.toggleClass(rightLabel,'hide');
-//            stu.toggleClass(logo,'active');
-            stu.toggleClass(leftTitle,'active');
-            stu.toggleClass(rightTitle,'active');
-//            stu.toggleClass(stillNav,'hide');
-//            stu.toggleClass(portfolios,'active');
-//            stu.toggleClass(bookme,'hide');
-      
     }
     
     function openLeftPortfolioDelayed() { 
@@ -514,23 +495,23 @@ I have multiple ways for you to contact me if you are interested in booking or h
               stu.toggleClass(lp,'active');
             }, 50);
             stu.toggleClass(leftLabel,'hide');
-            stu.toggleClass(logo,'active');
+//            stu.toggleClass(logo,'active');
             stu.toggleClass(leftTitle,'active');
 //            stu.toggleClass(stillNav,'hide');
 //            stu.toggleClass(portfolios,'active');
-            stu.toggleClass(bookme,'hide');
+//            stu.toggleClass(bookme,'hide');
             
         }  else {
             stu.toggleClass(rp,'hidden');
             stu.toggleClass(lp,'active');
-            stu.toggleClass(logo,'active');
+//            stu.toggleClass(logo,'active');
             stu.toggleClass(leftTitle,'active');
 //            stu.toggleClass(stillNav,'hide');
 //            stu.toggleClass(portfolios,'active');
             setTimeout(function(){
               stu.toggleClass(leftLabel,'hide');
               stu.toggleClass(lp,'hide');
-              stu.toggleClass(bookme,'hide');
+//              stu.toggleClass(bookme,'hide');
             }, 500);
         }
         
@@ -558,21 +539,21 @@ I have multiple ways for you to contact me if you are interested in booking or h
 //              stu.toggleClass(portfolios,'active');
             }, 50);
             stu.toggleClass(rightLabel,'hide');
-            stu.toggleClass(logo,'active');
+//            stu.toggleClass(logo,'active');
             stu.toggleClass(rightTitle,'active');
 //            stu.toggleClass(motionNav,'hide');
-            stu.toggleClass(bookme,'hide');
+//            stu.toggleClass(bookme,'hide');
         }  else {
             stu.toggleClass(lp,'hidden');
             stu.toggleClass(rp,'active');
-            stu.toggleClass(logo,'active');
+//            stu.toggleClass(logo,'active');
             stu.toggleClass(rightTitle,'active');
 //            stu.toggleClass(motionNav,'hide');
 //            stu.toggleClass(portfolios,'active');
             setTimeout(function(){
               stu.toggleClass(rightLabel,'hide');
               stu.toggleClass(rp,'hide');
-              stu.toggleClass(bookme,'hide');
+//             stu.toggleClass(bookme,'hide');
             }, 500);
         }
     }
@@ -589,22 +570,22 @@ I have multiple ways for you to contact me if you are interested in booking or h
               stu.toggleClass(rp,'active');
             }, 50);
             stu.toggleClass(rightLabel,'hide');
-            stu.toggleClass(logo,'active');
+//            stu.toggleClass(logo,'active');
             stu.toggleClass(rightTitle,'active');
 //            stu.toggleClass(motionNav,'hide');
 //            stu.toggleClass(portfolios,'active');
-            stu.toggleClass(bookme,'hide');
+//            stu.toggleClass(bookme,'hide');
         }  else {
             stu.toggleClass(lp,'hidden');
             stu.toggleClass(rp,'active');
-            stu.toggleClass(logo,'active');
+//            stu.toggleClass(logo,'active');
             stu.toggleClass(rightTitle,'active');
 //            stu.toggleClass(motionNav,'hide');
 //            stu.toggleClass(portfolios,'active');
             setTimeout(function(){
               stu.toggleClass(rightLabel,'hide');
               stu.toggleClass(rp,'hide');
-              stu.toggleClass(bookme,'hide');
+//              stu.toggleClass(bookme,'hide');
             }, 500);
         }
         
