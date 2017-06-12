@@ -443,9 +443,9 @@ I have multiple ways for you to contact me if you are interested in booking or h
     }   
     function openLeftPortfolio() {
         if(rp.className.indexOf('active') != -1) {
-//            openRightPortfolioImmediately();
-//            openLeftPortfolioDelayed();
-            switchLeftPortfolio();
+            openRightPortfolioImmediately();
+            openLeftPortfolioDelayed();
+//            switchLeftPortfolio();
         } else {
             stu.toggleClass(portfolios,'active');
             openLeftPortfolioImmediately(); 
@@ -465,7 +465,7 @@ I have multiple ways for you to contact me if you are interested in booking or h
             stu.toggleClass(logo,'active');
             stu.toggleClass(leftTitle,'active');
 //            stu.toggleClass(stillNav,'hide');
-            stu.toggleClass(portfolios,'active');
+//            stu.toggleClass(portfolios,'active');
             stu.toggleClass(bookme,'hide');
         }  else {
             stu.toggleClass(rp,'hidden');
@@ -526,7 +526,7 @@ I have multiple ways for you to contact me if you are interested in booking or h
             stu.toggleClass(logo,'active');
             stu.toggleClass(leftTitle,'active');
 //            stu.toggleClass(stillNav,'hide');
-            stu.toggleClass(portfolios,'active');
+//            stu.toggleClass(portfolios,'active');
             setTimeout(function(){
               stu.toggleClass(leftLabel,'hide');
               stu.toggleClass(lp,'hide');
@@ -555,7 +555,7 @@ I have multiple ways for you to contact me if you are interested in booking or h
             stu.toggleClass(rp,'active');
             setTimeout(function(){
               stu.toggleClass(rp,'active');
-              stu.toggleClass(portfolios,'active');
+//              stu.toggleClass(portfolios,'active');
             }, 50);
             stu.toggleClass(rightLabel,'hide');
             stu.toggleClass(logo,'active');
@@ -592,7 +592,7 @@ I have multiple ways for you to contact me if you are interested in booking or h
             stu.toggleClass(logo,'active');
             stu.toggleClass(rightTitle,'active');
 //            stu.toggleClass(motionNav,'hide');
-            stu.toggleClass(portfolios,'active');
+//            stu.toggleClass(portfolios,'active');
             stu.toggleClass(bookme,'hide');
         }  else {
             stu.toggleClass(lp,'hidden');
